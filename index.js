@@ -1,5 +1,7 @@
-const main = () => {
-    console.log('hello world!')
+const lodash = require('lodash');
+
+const main = (str) => {
+    console.log(lodash.upperFirst(str))
 }
 
-main();
+main('hello World!');
