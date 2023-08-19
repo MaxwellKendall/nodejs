@@ -6,13 +6,15 @@ function sayHello(str: string): void {
     console.log(`Hello ${str}!`)
 }
 
-sayHello('World');
+sayHello('');
 
+// User Defined Type :point-down:
 interface Person {
     name: string;
     age: number;
     isStudent?: boolean;
 }
+
 function introduce(person: Person): void {
     console.log(`My name is ${person.name} and I'm ${person.age} years old.`);
 }
